@@ -35,6 +35,9 @@ app.use(function(req, res, next) {
       };
     }
   }
+  if(access.test){
+     valid = true;
+  }
   
   if (valid) {
     next();
