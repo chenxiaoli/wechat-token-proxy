@@ -69,3 +69,9 @@ node app.js
 
 ## License
 [MIT](LICENSE)
+
+
+docker 容器方式启动项目:
+$ docker build -t weixin-token-proxy .
+$ docker run -it --rm  -p 3000:3000 --name weixin-token-proxy-running weixin-token-proxy
+
